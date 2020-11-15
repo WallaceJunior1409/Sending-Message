@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('../assets/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    opacity: .8;
+    border-radius: 5px;
+}
+
+.container .avatar {
+    position: relative;
+    top: -35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    left: 115px;
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+
+form {
+    position: relative;
+    top: -20px;
+    margin: 10px;
+}
+
+.container .avatar .avatar_img {
+    position: relative;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.container form label {
+    position: relative;
+    color: rgb(95, 3, 180);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container form input {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(95, 3, 180);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: rgb(82, 5, 155);
+}
+
+.container form button {
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 16px;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container form button:hover {
+    background: linear-gradient(to right, #ff00cc, #333399);
+    box-shadow: 0 0 4px 3px #333399;
+}
